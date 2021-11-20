@@ -89,12 +89,21 @@ body {
   text-align: center;
   font-weight: 700;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1440px) {
   .container {
-    margin: 150px 550px;
+    margin: 170px 550px;
   }
   body {
     background-size: 1000px, 1000px;
     background-position: -300px -500px, 600px 420px;
+  }
+}
+@media (min-width: 1000px) {
+  .container {
+    margin: 120px 500px;
+  }
+  body {
+    background-size: 1000px, 1000px;
+    background-position: -300px -600px, 500px 420px;
   }
 }
